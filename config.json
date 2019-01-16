@@ -1,0 +1,25 @@
+{
+    "tag": "div",
+    "extractActions": {
+        "toAddWindow": {
+            "notetype": "Basic",
+            "field": "Back",
+            "deck": "Default",
+            "tags": "IR addwi",
+            "prefill_other_fields": {
+                "fieldname":"value"
+            },
+            "new_nid_as_reference_into_old":false
+        },
+        "createNewNote": {
+            "notetype": "Basic",
+            "field": "Front",
+            "deck": "Default",
+            "tags": "IR directly",
+            "prefill_other_fields": {
+                "fieldname":"value"
+            },
+            "new_nid_as_reference_into_old":false
+        }
+    }
+}
